@@ -19,7 +19,7 @@ const LoginPage = () => {
   };
 
   const onSubmit = async () => {
-    const res = await fetch(`http://192.168.163.128:5000/login`, {
+    const res = await fetch("http://192.168.163.128:5000/login", {
       credentials: "include",
       headers: {
         Accept: "application/json",

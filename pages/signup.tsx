@@ -21,7 +21,7 @@ const SignupPage = () => {
   };
 
   const onSubmit = () => {
-    fetch(`http://192.168.163.128:5000/user/new`, {
+    fetch("http://192.168.163.128:5000/user/new", {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
